@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import Header from "./components/Header";
 import ToDoList from "./components/ToDoList";
 
-
 function App() {
   const [tasks, setTasks] = useState(() => {
     const savedTasks = localStorage.getItem("tasks");
