@@ -75,7 +75,7 @@ src/
 ### Clone the Repository
 
 ```bash
-git clone <your-github-repository-link>
+git clone https://github.com/Shivam20202/To-do-App.git
 ```
 
 ### Navigate to Project Directory
