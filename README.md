@@ -138,10 +138,6 @@ http://localhost:5173
 
 ---
 
-
-
----
-
 ## 📜 License
 
 This project is developed for educational and assignment purposes.
