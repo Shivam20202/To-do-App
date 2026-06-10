@@ -1,16 +1,147 @@
-# React + Vite
+# ✨ Task Master - Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Todo Application built with React, Vite, and Tailwind CSS. This application helps users organize tasks efficiently with a beautiful glassmorphism UI, smooth animations, and an intuitive user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 👨‍💻 Author
 
-## React Compiler
+**Shivam Pandey**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+GitHub: https://github.com/Shivam20202/To-do-App
 
-## Expanding the ESLint configuration
+Deployed Link: https://todo-app-alpha-sand-88.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Live Features
+
+### 📋 Task Management
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed/incomplete
+- Real-time task updates
+
+### 💾 Local Storage
+- Tasks are automatically saved in the browser
+- Data persists after page refresh
+- No backend required
+
+### 📊 Task Statistics
+- Total Tasks Count
+- Completed Tasks Count
+- Remaining Tasks Count
+
+### 🎨 UI/UX
+- Modern Glassmorphism Design
+- Gradient Backgrounds
+- Smooth Animations
+- Interactive Hover Effects
+- Dark Theme Interface
+- Responsive Layout
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- JavaScript (ES6+)
+- Tailwind CSS
+- React Hooks (useState, useEffect)
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+│
+├── components/
+│   ├── Header.jsx
+│   ├── ToDoList.jsx
+│   └── ToDoItem.jsx
+│
+├── App.jsx
+├── main.jsx
+
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### Clone the Repository
+
+```bash
+git clone <your-github-repository-link>
+```
+
+### Navigate to Project Directory
+
+```bash
+cd todo-app
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+Application will run at:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+## 🎯 Assignment Requirements Covered
+
+### ✅ Create React Application
+- Built using Vite
+- Runs without errors
+
+### ✅ Components
+- App Component
+- Header Component
+- ToDoList Component
+- ToDoItem Component
+
+### ✅ State & Props
+- useState for task management
+- Props passed between components
+- Dynamic data rendering
+
+### ✅ Lists
+- Rendered using map()
+- Unique keys for each task
+
+### ✅ Event Handling
+- Add Task
+- Edit Task
+- Delete Task
+- Mark Complete
+
+### ✅ Styling & UX
+- Tailwind CSS
+- Responsive Design
+- User-friendly Interface
+
+---
+
+
+
+---
+
+## 📜 License
+
+This project is developed for educational and assignment purposes.
